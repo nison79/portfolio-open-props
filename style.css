@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* @import "open-props/style"; */
+@import "open-props/normalize";
+
+body {
+  display: grid;
+  place-content: center;
+  padding: var(--size-5);
+  font-family: var(--font-size-2);
+}
+
+html {
+  /* try on some alt gradients why dont ya! */
+  background-image: var(--gradient-23);
+}
+
+.intro {
+  padding-block: var(--size-5);
+}
+
+img {
+  width: 30px;
+}
+
+h4 {
+  font-size: 3rem;
+  padding-block: var(--size-1);
+}
+
+h1 {
+  padding-block: var(--size-5);
+}
+
+.name-icons {
+  padding-block: var(--size-5);
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: min(100% -2rem, 50rem);
+  margin-inline-end: auto;
+}
