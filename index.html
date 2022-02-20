@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+    <title>George Nikoglou</title>
   </head>
   <body>
     <main>
       <section class="intro">
         <div class="container">
-          <h1>HELLO</h1>
-          <h4>I'm George Nikoglou</h4>
+          <h1 id="hello">HELLO</h1>
+          <h4 id="name" style="color: var(--gray-1)">I'm George Nikoglou</h4>
           <div class="name-icons">
             <h5 style="display: flex; align-items: center">
               An Angular
@@ -54,6 +57,16 @@
             doloremque aliquid harum.
           </p>
         </div>
+        <lottie-player
+          src="https://assets1.lottiefiles.com/private_files/lf30_qrvv8h4p.json"
+          mode="bounce"
+          background="transparent"
+          speed="1"
+          style="width: 50px; height: 50px"
+          hover
+          loop
+          autoplay
+        ></lottie-player>
       </section>
     </main>
 

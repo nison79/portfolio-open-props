@@ -8,6 +8,7 @@
 @import "open-props/normalize";
 
 body {
+  overflow-x: hidden;
   display: grid;
   place-content: center;
   padding: var(--size-5);
@@ -16,7 +17,7 @@ body {
 
 html {
   /* try on some alt gradients why dont ya! */
-  background-image: var(--gradient-23);
+  background-image: var(--gradient-3);
 }
 
 .intro {
@@ -25,6 +26,14 @@ html {
 
 img {
   width: 30px;
+}
+
+#hello {
+  opacity: 0;
+}
+
+#name {
+  transform: scale(0, 0);
 }
 
 h4 {
