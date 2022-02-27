@@ -5,19 +5,19 @@
 }
 
 /* @import "open-props/style"; */
-@import "open-props/normalize";
+/* @import "open-props/normalize"; */
 
 body {
   overflow-x: hidden;
   display: grid;
-  place-content: center;
+  place-items: center;
   padding: var(--size-5);
-  font-family: var(--font-size-2);
+  font-family: var(--font-size-5);
 }
 
 html {
   /* try on some alt gradients why dont ya! */
-  background-image: var(--gradient-3);
+  background-image: var(--gradient-29);
 }
 
 .intro {
